@@ -15,7 +15,7 @@ import MyJob.MyJob.service.MyJobService;
 public class MyJobController {
   @Autowired
   public MyJobService service;
-  
+  // why u have added api here dont do it again 
   @PostMapping
   public MyJobDaoResponse create(@RequestBody MyJobDaoRequest request) throws Exception
   {
